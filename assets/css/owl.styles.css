@@ -1,0 +1,36 @@
+#st_carousel .st_thumbnail,
+#st_carousel .st_meta {
+	float: left;
+	text-align: left;
+	width: 50%;
+}
+
+#st_carousel .st_meta {
+	padding: 0 20px;
+}
+
+#st_carousel .st_meta h4 {
+	margin-bottom: 10px;
+	padding-bottom: 0;
+}
+
+#st_carousel .st_meta em {
+	display: block;
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+@media only screen 
+and (max-width : 768px)  {
+	#st_carousel .st_thumbnail,
+	#st_carousel .st_meta {
+		float: none;
+		text-align: left;
+		width: 100%;
+	}
+
+	#st_carousel .st_meta {
+		padding: 20px 0;
+	}
+}
